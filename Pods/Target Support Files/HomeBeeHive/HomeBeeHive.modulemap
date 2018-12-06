@@ -1,0 +1,6 @@
+framework module HomeBeeHive {
+  umbrella header "HomeBeeHive-umbrella.h"
+
+  export *
+  module * { export * }
+}

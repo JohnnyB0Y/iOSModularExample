@@ -1,0 +1,6 @@
+framework module PageBeeHive {
+  umbrella header "PageBeeHive-umbrella.h"
+
+  export *
+  module * { export * }
+}

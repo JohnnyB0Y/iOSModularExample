@@ -1,0 +1,6 @@
+framework module Pods_HomeCTMediatorPod {
+  umbrella header "Pods-HomeCTMediatorPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

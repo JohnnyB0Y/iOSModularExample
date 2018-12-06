@@ -1,0 +1,6 @@
+framework module HomeTarget {
+  umbrella header "HomeTarget-umbrella.h"
+
+  export *
+  module * { export * }
+}

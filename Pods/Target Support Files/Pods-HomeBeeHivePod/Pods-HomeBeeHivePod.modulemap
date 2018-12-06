@@ -1,0 +1,6 @@
+framework module Pods_HomeBeeHivePod {
+  umbrella header "Pods-HomeBeeHivePod-umbrella.h"
+
+  export *
+  module * { export * }
+}

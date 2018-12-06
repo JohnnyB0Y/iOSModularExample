@@ -1,0 +1,29 @@
+{
+  "name": "Page",
+  "version": "0.1.0",
+  "summary": "Test View Controller",
+  "description": "Developer can use BeeHive make iOS programming easier",
+  "homepage": "https://github.com",
+  "license": "GPL",
+  "platforms": {
+    "ios": "12.0"
+  },
+  "authors": {
+    "JohnnyB0Y": "ag860050872@163.com"
+  },
+  "source": {
+    "git": "https://github.com",
+    "tag": "0.1.0"
+  },
+  "source_files": "Page/*.{h,m}",
+  "resources": "Page/*.xib",
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ],
+  "dependencies": {
+    "BeeHive": [
+      "~> 1.6.0"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module PageTarget {
+  umbrella header "PageTarget-umbrella.h"
+
+  export *
+  module * { export * }
+}

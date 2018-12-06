@@ -1,0 +1,6 @@
+framework module PageActions {
+  umbrella header "PageActions-umbrella.h"
+
+  export *
+  module * { export * }
+}

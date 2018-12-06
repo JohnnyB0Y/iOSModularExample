@@ -1,0 +1,65 @@
+PODS:
+  - AGCategories (0.1.0)
+  - BeeHive (1.6.0)
+  - CTMediator (25)
+  - HomeActions (0.1.0):
+    - CTMediator
+    - HomeTarget
+  - HomeBeeHive (0.1.0):
+    - BeeHive (~> 1.6.0)
+  - HomeTarget (0.1.0):
+    - AGCategories
+  - PageActions (0.1.0):
+    - CTMediator
+    - PageTarget
+  - PageBeeHive (0.1.0):
+    - AGCategories
+    - BeeHive (~> 1.6.0)
+  - PageTarget (0.1.0):
+    - AGCategories
+
+DEPENDENCIES:
+  - AGCategories
+  - BeeHive
+  - CTMediator
+  - HomeActions (from `./HomeModuleActionsPod/`)
+  - HomeBeeHive (from `./HomeBeeHivePod/`)
+  - HomeTarget (from `./HomeCTMediatorPod/`)
+  - PageActions (from `./PageModuleActionsPod/`)
+  - PageBeeHive (from `./HomeBeeHivePod/`)
+  - PageTarget (from `./HomeCTMediatorPod/`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AGCategories
+    - BeeHive
+    - CTMediator
+
+EXTERNAL SOURCES:
+  HomeActions:
+    :path: "./HomeModuleActionsPod/"
+  HomeBeeHive:
+    :path: "./HomeBeeHivePod/"
+  HomeTarget:
+    :path: "./HomeCTMediatorPod/"
+  PageActions:
+    :path: "./PageModuleActionsPod/"
+  PageBeeHive:
+    :path: "./HomeBeeHivePod/"
+  PageTarget:
+    :path: "./HomeCTMediatorPod/"
+
+SPEC CHECKSUMS:
+  AGCategories: d4cd7a169fb37ef90c978bbed816b7d49de64080
+  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  HomeActions: 6645817ad9e06ee7ea11669e59790599c050d865
+  HomeBeeHive: 8de8067036c742adc8abe76f9449e602dbe4d988
+  HomeTarget: b27a1bbd53b287443373c2f52ac5a0de3f2602d1
+  PageActions: 5a339d46faba7f9191110ff72e2441488c3725ee
+  PageBeeHive: 15beaba70f476ea3fc10c0164ff4e9fb00602660
+  PageTarget: 688e88f36fcfc91469994924a55801922f10213e
+
+PODFILE CHECKSUM: c2929c258d4b815b7f311e441cbdff4b6d1ca572
+
+COCOAPODS: 1.5.3
